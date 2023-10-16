@@ -15,7 +15,7 @@ export default function ImagesList({ search }: ImagesListProps) {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState<UnsplashImage | null>(
     null
-  ); // Updated type
+  );
 
   useEffect(() => {
     const fetchImages = async () => {
